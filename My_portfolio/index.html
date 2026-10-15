@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Methsara Sayuranga|portfolio</title>
+<meta name="description" content="Portfolio of Methsara, technology undergraduate focused on networking and system design.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="net" aria-hidden="true"></canvas>
+
+<header class="nav">
+  <a class="logo" href="#home">methsara@portfolio:~$</a>
+  <button class="menu-btn" aria-label="Toggle menu" aria-expanded="false">☰</button>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    <span class="status"><i></i>Available</span>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-text">
+    <p class="prompt">$ whoami</p>
+    <h1>Hi, I'm Methsara.<br><span id="typed"></span><span class="cursor">_</span></h1>
+    <p class="lead">BICT undergraduate who likes building reliable networks and designing systems that scale. I enjoy working out how the pieces connect.</p>
+    <div class="cta">
+      <a class="btn primary" href="#projects">View projects</a>
+      <a class="btn" href="#contact">Contact me</a>
+      <a class="btn" href="https://github.com/metha112" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+  <figure class="photo">
+    <div class="bar"><b></b><b></b><b></b><span>methsara.jpg</span></div>
+    <img src="./methsara.jpg" alt="Portrait of Methsara">
+  </figure>
+</section>
+
+<section id="about" class="reveal">
+  <h2>About</h2>
+  <div class="about-grid">
+    <p>I'm a BICT undergraduate at the Faculty of Technology, University of Ruhuna, Sri Lanka. My main interests are computer networking and system design: how data moves between machines, and how to structure software so it keeps working as it grows.</p>
+    <ul class="facts">
+      <li><span>focus</span>Networking, System Design</li>
+      <li><span>studying</span>University of Ruhuna</li>
+      <li><span>roal</span>BICT(hons) Undergraduate</li>
+      <li><span>location</span>Sri Lanka</li>
+      <li><span>status</span>Open to opportunities</li>
+    </ul>
+  </div>
+</section>
+
+<section id="skills" class="reveal">
+  <h2>Skills</h2>
+  <div class="cards">
+    <article><h3>Networking</h3><p>TCP/IP, subnetting, routing and switching, VLANs, DNS, DHCP</p></article>
+    <article><h3>System design</h3><p>Architecture, scalability, load balancing, databases, APIs</p></article>
+    <article><h3>Programming</h3><p>C, Python, SQL, HTML, CSS, JavaScript</p></article>
+    <article><h3>Tools</h3><p>Git, Linux, Cisco Packet Tracer, Wireshark</p></article>
+  </div>
+</section>
+
+<section id="projects" class="reveal">
+  <h2>Projects</h2>
+  <div class="cards">
+    <article class="project">
+      <h3>Staff Management System</h3>
+      <p>Console-based employee management system in C with file-based storage, built for the Faculty of Technology.</p>
+      <small>C · File I/O</small>
+      <a href="https://github.com/metha112/EMPLOYEE-MANAGEMENT-SYSTEM" target="_blank" rel="noopener">View on GitHub</a>
+    </article>
+    <article class="project">
+      <h3>Campus network design</h3>
+      <p>Replace this with your own network project: topology, addressing plan and what you learned.</p>
+      <small>Packet Tracer · VLAN</small>
+      <a href="https://github.com/metha112/ip-address-manager" target="_blank" rel="noopener">View details</a>
+    </article>
+    <article class="project">
+      <h3>System design write-up</h3>
+      <p>Replace this with a design you worked on, for example a scalable URL shortener or chat service.</p>
+      <small>Architecture · Databases</small>
+      <a href="https://github.com/metha112/QR_jenaretor" target="_blank" rel="noopener">Read more</a>
+    </article>
+  </div>
+</section>
+
+<section id="contact" class="reveal">
+  <h2>Contact</h2>
+  <p class="lead">Want to work together or just talk networks? Send a message on any of these.</p>
+  <div class="socials">
+    <a href="mailto:sayurangamethsara110@gmail.com">Email</a>
+    <a href="https://github.com/metha112" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://www.linkedin.com/in/methsara-sayuranga-79660b412?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://www.facebook.com/share/19eo4MnZF2/" target="_blank" rel="noopener">Facebook</a>
+    <a href="https://www.instagram.com/methsara.sayuranga?utm_source=qr&vrfl=MWJ0Z2YwZHN5ZGF1ZQ==" target="_blank" rel="noopener">Instagram</a>
+    <a href="https://wa.me/94770110668" target="_blank" rel="noopener">WhatsApp</a>
+  
+  </div>
+</section>
+</main>
+
+<footer>© <span id="year"></span> Methsara_Sayuranga</footer>
+<script src="script.js"></script>
+</body>
+</html>
